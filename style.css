@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg');
+    
+}
+nav{
+    width: 95%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+#img1{
+    height: 100%;
+}
+select{
+    width: 8.5em;
+    height: 2em;
+    border-radius: 5px;
+    background-color: #151413;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    /* letter-spacing: .1em; */
+    font-weight: bold;
+}
+.top-button>button{
+    width: 5.5em;
+    height: 2em;
+    border-radius: 5px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    font-size: medium;
+    /* letter-spacing: .1em; */
+    font-weight: bold;
+    transition-duration: 1s;
+}
+.top-button>button:hover{
+    cursor: pointer;
+    background-color: #be040d;
+}
+.body-part{
+    width: 85%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    line-height: 3.5rem;
+}
+.body-part>p:nth-child(1){
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    line-height: 60px;
+}
+.body-part>p:nth-child(2){
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.body-part>p:nth-child(2){
+    font-size: 18px;
+    color: #ceccc2;
+}
+.body-part>p:nth-child(3){
+    color: #ceccc2;
+}
+.Buttons{
+    display: flex;
+    align-items: center;
+    height: 110px;
+    margin-top: 20px;
+}
+#email{
+    width: 21rem;
+    height: 3.2rem;
+    border-radius: 5px;
+    font-size: medium;
+    padding-left: 20px;
+    background-color: #151413;
+    display: inline-block;
+}
+#started{
+    width: 13rem;
+    height: 3.2rem;
+    border-radius: 5px;
+    background-color: #e50914;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    margin-top: 4px;
+    display: inline-block;
+    border: 2px solid #e50914;
+    transition-duration: 1s;
+}
+#started:hover{
+    cursor: pointer;
+    background-color: #be040d;
+}
+main{
+    width: 100%;
+    background-color: black;
+}
+.first-grid{
+    color: white;
+    width: 85%;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.plans{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.plans>div{
+    background-color: #601c39;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.plans>div>h2,p{
+    margin-top: 20px;
+    line-height: 22px;
+}
+.plans>div>p{
+   opacity: .8;
+}
+.trending{
+    width: 85%;
+    margin: auto;
+    padding-top: 50px;
+}
+.trending>h2{
+    color: white;
+    padding-bottom: 15px;
+}
+.country, .shows{
+    height: 2.5rem;
+    margin-right: 1rem;
+    text-align: start;
+    padding-left: 10px;
+}
+.country{
+    width: 6rem;
+}
+.shows{
+    width: 6.7rem;
+}
+
+.trending-movies{
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+.trending-movies>div>img{
+    width: 100%;
+}
